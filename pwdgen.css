@@ -1,0 +1,33 @@
+.password-generator div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.password {
+  min-width: 280px;
+  background-color: #84868c;
+  color: #FFFFFF;
+}
+
+.password p {
+  padding: 6px 10px;
+}
+
+.password i {
+  background-color: rgba(0, 0, 0, 0.575);
+  padding: 6px 10px;
+}
+
+.password-generator button {
+  width: 100%;
+  border: none;
+  color: #FFFFFF;
+  background-color: #6d757d;
+  padding: 10px;
+}
+
+.password-generator {
+  display: grid;
+  place-content: center;
+}

@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+input{
+    color:#022255 !important;
+}
+input[type=password]:focus,
+input[type=text]:focus{
+    box-shadow: 0 0 5px rgba(246, 8, 110,0.8);
+    border: 1px solid rgba(246, 8, 110,0.8);
+}
+
+
+
+.container{
+  margin-left: auto;
+  margin-right:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-horizontal {
+    width: 320px;
+    background-color: #ffffff;
+    padding: 25px 38px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+}
+.control-label {
+    text-align: left !important;
+    padding-bottom: 4px;
+}
+.progress {
+    height: 3px !important;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.show-pass{
+    position: absolute;
+    top:5%;
+    right: 8%;
+}
+.progress-bar-danger {
+    background-color: #e90f10;
+}
+.progress-bar-warning{
+    background-color: #ffad00;
+}
+.progress-bar-success{
+    background-color: #02b502;
+}
+
+.fa-eye{
+    color: #022255;
+    cursor: pointer;
+}
+
+.fa-circle{
+    font-size: 6px;  
+}
+.fa-check{
+    color: #02b502;
+}
